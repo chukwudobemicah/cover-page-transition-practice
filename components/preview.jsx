@@ -13,10 +13,10 @@ export default function Preview({ year, name, info, info2, desktopImgUrl }) {
         <div className="z-[20] w-[80%] pt-12 mx-auto relative text-white overflow-hidden">
           <div className="absolute hidden lg:block left-[-20%] w-[150%] overlay-3 bg-black h-[300px] z-[20] pointer-events-none" />
           <div className="mx-auto w-full relative overflow-hidden">
-            <p className="animate-text lg:absolute left-[7%] top-[-9%] lg:text-[12rem]">
+            <p className="animate-text lg:absolute left-[7%] top-[15%] lg:text-[12rem]">
               {name}
             </p>
-            <div className="h-[250px] hidden lg:block mx-auto w-full">
+            <div className="h-[350px] hidden lg:block mx-auto w-full">
               <Image
                 priority
                 src={desktopImgUrl}
